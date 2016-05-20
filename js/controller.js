@@ -5,7 +5,7 @@ mdApp.controller("mdController", function($scope, $http) {
 
 
 	$scope.follow = function(username, followMethod){
-
+		console.log(username);
 		$http.post('process_follow.php', {
 			poster: username,
 			followMethod: followMethod

@@ -26,7 +26,7 @@
 			<div class="row">
 				<?php foreach($following_array as $user): ?>
 					<div class="col-sm-8"><?php print $user; ?></div>
-					<div class="col-sm-4"><button ng-click="follow('<?php print $user["username"];?>', 'unfollow')" class="btn btn-danger">Unfollow</button>
+					<div class="col-sm-4"><button ng-click="follow('<?php print $user;?>', 'unfollow')" class="btn btn-danger">Unfollow</button>
 					</div>
 				<?php endforeach; ?>
 			</div>
@@ -40,7 +40,7 @@
 			<div class="row">
 				<?php foreach($not_following_array as $user): ?>
 					<div class="col-sm-8"><?php print $user; ?></div>
-					<div class="col-sm-4"><button ng-click="follow('<?php print $user["username"];?>','follow')" class="btn btn-primary">Follow</button>
+					<div class="col-sm-4"><button ng-click="follow('<?php print $user;?>','follow')" class="btn btn-primary">Follow</button>
 					</div>
 				<?php endforeach; ?>
 			</div>
