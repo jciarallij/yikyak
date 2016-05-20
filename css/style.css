@@ -1,0 +1,344 @@
+/* line 2, ../compass/sass/style.scss */
+body {
+  background-color: white;
+}
+
+/* line 6, ../compass/sass/style.scss */
+.navbar-nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+/* line 11, ../compass/sass/style.scss */
+.user-login {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  margin-left: 15px;
+}
+
+/* line 21, ../compass/sass/style.scss */
+#main-wrapper {
+  background-color: lightgray;
+}
+
+/* line 25, ../compass/sass/style.scss */
+.my-nav {
+  padding: 0px;
+}
+
+/* line 29, ../compass/sass/style.scss */
+.navbar-inverse {
+  min-height: 85px;
+  padding: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+/* line 36, ../compass/sass/style.scss */
+.navbar-inverse .navbar-nav > li > a {
+  text-transform: uppercase;
+  color: #d2ac67;
+}
+/* line 39, ../compass/sass/style.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: white;
+}
+/* line 43, ../compass/sass/style.scss */
+.navbar-inverse .navbar-nav > li > a .lower {
+  text-transform: none;
+}
+
+/* line 48, ../compass/sass/style.scss */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #D462FF;
+  background-color: lightgray;
+}
+
+/* line 54, ../compass/sass/style.scss */
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  border-color: gray;
+}
+/* line 61, ../compass/sass/style.scss */
+.btn:hover {
+  background-color: black;
+  border-color: white;
+}
+/* line 65, ../compass/sass/style.scss */
+.btn:active {
+  border: none;
+  color: black;
+}
+
+/* line 72, ../compass/sass/style.scss */
+.btn-register:hover {
+  color: white;
+}
+
+/* line 78, ../compass/sass/style.scss */
+.btn-login:hover {
+  color: white;
+}
+
+/* line 83, ../compass/sass/style.scss */
+a:active {
+  background-color: #d2ac67;
+  border: none;
+  color: black;
+}
+
+/* line 89, ../compass/sass/style.scss */
+#post-title-text {
+  background-color: lightgray;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* line 97, ../compass/sass/style.scss */
+#topic-box {
+  height: 40px;
+  width: 390px;
+  background-color: black;
+  text-align: left;
+  border-radius: 5px;
+}
+/* line 103, ../compass/sass/style.scss */
+#topic-box h2.title-post {
+  color: white;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+/* line 111, ../compass/sass/style.scss */
+#plus {
+  float: right;
+}
+
+/* line 116, ../compass/sass/style.scss */
+#posts-left {
+  float: left;
+  clear: both;
+}
+
+/* line 121, ../compass/sass/style.scss */
+#post-message {
+  margin-top: 20px;
+  float: left;
+  clear: both;
+}
+
+/* line 127, ../compass/sass/style.scss */
+#follow {
+  float: left;
+  clear: both;
+}
+
+/* line 132, ../compass/sass/style.scss */
+#my-posts {
+  height: 150px;
+  background-color: gray;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* line 147, ../compass/sass/style.scss */
+#post-text {
+  min-width: 320px;
+  height: 100px;
+  float: left;
+  clear: both;
+}
+
+/* line 154, ../compass/sass/style.scss */
+.post-text-title {
+  float: left;
+}
+
+/* line 158, ../compass/sass/style.scss */
+.post-btn {
+  float: left;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+/* line 165, ../compass/sass/style.scss */
+.panel {
+  margin-top: 10px;
+  min-height: 150px;
+}
+
+/* line 170, ../compass/sass/style.scss */
+#yak-section {
+  background: url("../img/photo-original.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  color: #d2ac67;
+  -webkit-text-fill-color: #d2ac67;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  border: 2px solid #d2ac67;
+  margin-top: 5px;
+}
+
+/* line 186, ../compass/sass/style.scss */
+#topic-title {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+/* line 191, ../compass/sass/style.scss */
+body {
+  background: url("../img/money.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 198, ../compass/sass/style.scss */
+.user {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+/* line 204, ../compass/sass/style.scss */
+.date {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  font-size: 12px;
+}
+
+/* line 211, ../compass/sass/style.scss */
+.text {
+  text-align: left;
+  margin-top: 30px;
+  width: 80%;
+  word-wrap: break-word;
+  margin-bottom: 30px;
+}
+
+/* line 220, ../compass/sass/style.scss */
+.user-img img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  border-radius: 50%;
+  border: 2px solid #d2ac67;
+}
+
+/* line 231, ../compass/sass/style.scss */
+.fa {
+  color: #d2ac67;
+  font-size: 20px;
+}
+
+/* line 236, ../compass/sass/style.scss */
+#register.container {
+  background-color: lightgray;
+  height: 89vh;
+}
+
+/* line 241, ../compass/sass/style.scss */
+#login.container {
+  background-color: lightgray;
+  height: 89vh;
+}
+
+/* line 246, ../compass/sass/style.scss */
+#logout.container {
+  background-color: lightgray;
+  height: 89vh;
+}
+
+/* line 251, ../compass/sass/style.scss */
+#follow.container {
+  background-color: lightgray;
+  height: 89vh;
+  color: white;
+  font-size: 18px;
+  margin-left: 127px;
+}
+
+/* line 259, ../compass/sass/style.scss */
+.vote-counter {
+  margin: 20px 0;
+}
+
+/* line 263, ../compass/sass/style.scss */
+.right-container {
+  position: relative;
+  right: 35px;
+  top: 20px;
+}
+
+/* line 269, ../compass/sass/style.scss */
+.fa-arrow-up.my-arrow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: green;
+}
+
+/* line 276, ../compass/sass/style.scss */
+.fa-arrow-down.my-arrow {
+  color: red;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* line 283, ../compass/sass/style.scss */
+.vote {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  font-size: 14px;
+}
+
+/* line 290, ../compass/sass/style.scss */
+.vote-two {
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
+  font-size: 14px;
+}
+
+/* line 297, ../compass/sass/style.scss */
+.user-post {
+  color: #d2ac67;
+}
+
+/* line 301, ../compass/sass/style.scss */
+.fa-arrow-up {
+  color: green;
+}
+
+/* line 305, ../compass/sass/style.scss */
+.fa-arrow-down {
+  color: red;
+}
+
+/* line 310, ../compass/sass/style.scss */
+.wrapper {
+  background-color: lightgray;
+  color: white;
+}

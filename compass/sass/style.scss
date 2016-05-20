@@ -1,0 +1,316 @@
+
+body {
+    background-color: white;
+}
+
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.user-login {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+
+
+
+#main-wrapper {
+    background-color: lightgray;
+}
+
+.my-nav {
+    padding: 0px;
+}
+
+.navbar-inverse {
+    min-height: 85px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding: 0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: #d2ac67;
+    &:hover {
+        color: white;
+        
+    }
+    .lower {
+        text-transform: none;
+    }
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #D462FF;
+    background-color: lightgray;
+}
+
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border-color: gray;
+    &:hover {
+        background-color: black;
+        border-color: white;
+    }
+    &:active {
+        border: none;
+        color: black;
+    }
+}
+
+.btn-register {
+    &:hover {
+        color:white;
+    }
+}
+
+.btn-login {
+    &:hover {
+        color:white;
+    }
+}
+
+a:active {
+    background-color: #d2ac67;
+    border: none;
+    color: black;
+}
+
+#post-title-text {
+    background-color: lightgray;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+#topic-box {
+    height: 40px;
+    width: 390px;
+    background-color: black;
+    text-align: left;
+    border-radius: 5px;
+    h2.title-post {
+        color: white;
+        padding-top: 3px;
+        padding-left: 5px;
+    }
+
+}
+
+#plus {
+    float: right;
+}
+
+
+#posts-left {
+    float: left;
+    clear: both;
+}
+
+#post-message {
+    margin-top: 20px;
+    float: left;
+    clear: both;
+}
+
+#follow {
+    float: left;
+    clear: both;
+}
+
+#my-posts {
+    height: 150px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+#posts {
+    
+    
+}
+
+#post-text {
+    min-width: 320px;
+    height: 100px;
+    float: left;
+    clear: both;
+}
+
+.post-text-title {
+    float: left;
+}
+
+.post-btn {
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+
+}
+
+.panel {
+    margin-top: 10px;
+    min-height: 150px;
+}
+
+#yak-section {
+    background: url("../img/photo-original.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    color: #d2ac67;
+    -webkit-text-fill-color: #d2ac67; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    border: 2px solid #d2ac67;
+    margin-top: 5px;
+}
+
+#topic-title {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+body {
+    background: url("../img/money.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.user {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.date {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    font-size: 12px;
+}
+
+.text {
+    text-align: left;
+    margin-top: 30px;
+    width: 80%;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+}
+
+.user-img {
+    img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 10px;
+        right: 40px;
+        border-radius: 50%;
+        border: 2px solid #d2ac67;
+    }
+}
+
+.fa {
+    color: #d2ac67;
+    font-size: 20px;
+}
+
+#register.container {
+    background-color: lightgray;
+    height: 89vh;
+}
+
+#login.container {
+    background-color: lightgray;
+    height: 89vh;
+}
+
+#logout.container {
+    background-color: lightgray;
+    height: 89vh;
+}
+
+#follow.container{
+    background-color: lightgray;
+    height: 89vh;
+    color: white;
+    font-size: 18px;
+    margin-left: 127px;
+}
+
+.vote-counter {
+    margin: 20px 0;
+}
+
+.right-container {
+    position: relative;
+    right: 35px;
+    top: 20px;
+}
+
+.fa-arrow-up.my-arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: green;
+}
+
+.fa-arrow-down.my-arrow {
+    color: red;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.vote {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    font-size: 14px;
+}
+
+.vote-two {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    font-size: 14px;
+}
+
+.user-post {
+    color: #d2ac67;
+}
+
+.fa-arrow-up {
+    color: green;
+}
+
+.fa-arrow-down {
+    color: red;
+}
+
+
+.wrapper {
+    background-color: lightgray;
+    color: white;
+}
+
+
+
