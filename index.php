@@ -8,10 +8,12 @@
 	date_default_timezone_set("America/New_York");
 
 	$all_posts = DB::query("SELECT posts.*,
-		COALESCE(SUM(votes.vote_direction), 0) as totalVotesCounter
+		COALESCE(SUM(votes.voteUp), 0) as totalVotesUp,
+		COALESCE(SUM(votes.voteDown), 0) as totalVotesDown
 		FROM posts
 		LEFT JOIN votes ON posts.id = votes.pid
 		GROUP BY posts.id;");
+
 
 ?>
 
@@ -70,14 +72,14 @@
 					
 					<div id="<?php print $post['id']; ?>" class="arrow-up" ng-click="processVote($event, 1)">
 						
-						<p class="vote"><?php print $post['totalVotesCounter']; ?></p>
+						<p class="vote"><?php print $post['totalVotesUp']; ?></p>
 						<span class="fa fa-arrow-up my-arrow"></span>
 
 
 					</div>
 					<div  id="<?php print $post['id']; ?>" class="arrow-down" ng-click="processVote($event, 0)">
 
-						<p class="vote-two"><?php print $post['totalVotesCounter']; ?></p>
+						<p class="vote-two"><?php print $post['totalVotesDown']; ?></p>
 						<span class="fa fa-arrow-down my-arrow"></span>
 
 					</div>

@@ -4,9 +4,6 @@
 		print("notLoggedIn");
 	} else {
 
-	
-
-
 	require_once 'includes/db_connected.php';
 	$json_recieved = file_get_contents('php://input');
 	$decoded_json = json_decode($json_recieved, true);
@@ -16,7 +13,7 @@
 	$did_vote = DB::query("SELECT * FROM votes WHERE username = %s AND pid = %i", $_SESSION['username'], $post_id);
 
 	if(DB::count() != 0){
-		print 'alreadyVoted';
+		// print 'Already Voted'; // Changing to a bootstrap popup
 		exit;
 	} else {
 
