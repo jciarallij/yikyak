@@ -46,7 +46,7 @@
 					<button type="submit" class="btn btn-primary post-btn">Post</button>
 				</form>
 			<?php else: ?>
-				<h5> You must be <a href="login.php">Logged in</a> to make a post</h5>
+				<h5> You must be <a href="login.php">Logged in</a> to make a post or vote on posts</h5>
 			<?php endif ?>
 	        
 		</div>
