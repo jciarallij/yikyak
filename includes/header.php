@@ -15,14 +15,6 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
-                        
-                    <?php 
-                        if(isset($_SESSION['username'])){
-                            print '<li><a href="follow.php">Follow</a></li>';
-                        } else {
-                            
-                        }
-                    ?>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                     <?php 
@@ -34,7 +26,6 @@
                             print '<li><a href="login.php"><span class="fa fa-user"></span> Login</a></li>';
                         }
                     ?>
-                        <!-- <li><a href="#/login"><span class="fa fa-user"></span> Login</a></li> -->
                     </ul>
                 </div>
           </nav>
